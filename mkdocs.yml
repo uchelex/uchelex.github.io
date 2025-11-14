@@ -1,0 +1,28 @@
+site_name: Dr. Ifeanyi Oguamah – Academic Website
+site_description: Academic Resources and Lecture Notes – Department of Petroleum Engineering, FUTO
+site_author: Dr. Ifeanyi Oguamah
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/favicon.png
+  palette:
+    primary: indigo
+    accent: deep orange
+  font:
+    text: Roboto
+    code: Roboto Mono
+nav:
+  - Home: index.md
+  - Courses:
+      - PET 403 Reservoir Engineering: pet403.md
+      - Asphaltene Studies: asphaltene.md
+  - Publications: publications.md
+  - Contact: contact.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ifeanyioguamah
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ifeanyioguamah
+    - icon: fontawesome/solid/envelope
+      link: mailto:ifeanyi.oguamah@futo.edu.ng
