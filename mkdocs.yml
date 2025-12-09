@@ -1,22 +1,38 @@
+# Federal University of Technology Owerri (FUTO)
+### Department of Petroleum Engineering
+
+---
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
 site_name: Dr. Ifeanyi Oguamah – Academic Website
 site_description: Academic Resources and Lecture Notes – Department of Petroleum Engineering, FUTO
 site_author: Dr. Ifeanyi Oguamah
 theme:
   name: material
-  logo: images/logo.png
-  favicon: images/favicon.png
+  logo: Image/FUTO.png
+  favicon: Images/FUTO.png
   palette:
-    primary: indigo
-    accent: deep orange
+     - scheme: default
+       primary: custom-green
+       accent: custom-gold
+  extra_css:
+    - stylesheets/FUTO.css
   font:
     text: Roboto
     code: Roboto Mono
 nav:
   - Home: index.md
-  - Courses:
-      - PET 403 Reservoir Engineering: pet403.md
+  - lecture-notes:
+      - PET 403 Reservoir Engineering: lecture-notes/PET 403.md
+      - GET 209 Engineering Mathematics: lecture-notes/GET 209.md
+      - PET 413 Alternative Energy: lecture-notes/PET 413.md
       - Asphaltene Studies: asphaltene.md
   - Publications: publications.md
+  - Student Attendance: attendance.md
+  - Assignments: assignment.md
   - Contact: contact.md
 extra:
   social:
