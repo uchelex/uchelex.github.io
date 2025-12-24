@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://uchelex.github.io/sitemap.xml
+
